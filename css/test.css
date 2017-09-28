@@ -1,0 +1,131 @@
+@font-face {
+    font-family: '汉仪井柏然简体';
+    src: url('../font/汉仪井柏然简体.eot'); /* IE9 Compat Modes */
+    src: url('../font/汉仪井柏然简体.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/汉仪井柏然简体.woff') format('woff'), /* Modern Browsers */
+    url('../font/汉仪井柏然简体.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+/*#ml{*/
+    /*float: left;*/
+    /*border:1px solid red;*/
+/*}*/
+/*#mr{*/
+    /*float: right;*/
+    /*border:1px solid red;*/
+/*}*/
+#main{
+    /*font-family: Arial;*/
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/bodybk.jpg);
+    background-position: center, center;
+    overflow-x: hidden;
+    /*height: 1600px;*/
+}
+.container{
+    min-height: 100%;
+}
+#spiderweb{
+    position: absolute;
+    left:650px;
+    top:100px;
+}
+#time {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: '汉仪井柏然简体';
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pageload-link{
+    position: relative;
+    left:50%;
+    top:62%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+}
+
+#letter {
+    /*background-image: url("");*/
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%) rotate(-10deg);
+    width:500px;
+    height:473px;
+    background-image: url("../images/letter.png");
+    background-size: cover;
+}
+
+#heart{
+    width:80px;
+    height: 70px;
+}
+
+#myContent {
+    /*
+    绝对定位的居中操作
+    */
+    /*
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);*/
+    /*
+        ***************************************
+    */
+
+    margin: 0 auto;
+    /*padding: 2em;*/
+    opacity: 1;
+   /*
+        text-align: center;
+        border:1px solid #222;
+        box-shadow: 2px 2px 10px 2px #555;
+    */
+    width: 900px;
+    height: 900px;
+}
+
+p {
+    line-height: 200%;
+    color: #000;
+    font-family: '汉仪井柏然简体';
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*font-weight: bold;*/
+}
+#space{
+    height:5em;
+}
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: center;
+}
+
+iframe {
+    position: fixed;
+    left: 2em;
+    bottom: 2em;
+    box-shadow: 2px 2px 10px 2px #333;
+}
+
+#blink {
+    display: inline;
+}
