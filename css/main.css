@@ -1,9 +1,12 @@
 @font-face {
-    font-family: '汉仪井柏然简体';
-    src: url('../font/汉仪井柏然简体.eot'); /* IE9 Compat Modes */
-    src: url('../font/汉仪井柏然简体.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../font/汉仪井柏然简体.woff') format('woff'), /* Modern Browsers */
-    url('../font/汉仪井柏然简体.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-family: 'jbr';
+    src: url('../font/jbr.eot'); /* IE9 Compat Modes */
+    src: url('../font/jbr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/jbr.woff') format('woff'), /* Modern Browsers */
+    url('../font/jbr.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/jbr.svg') format('svg'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
 }
 *{
     margin:0;
@@ -40,7 +43,7 @@
     float: right;
     margin-top: 30px;
     margin-right: 50px;
-    font-family: '汉仪井柏然简体';
+    font-family: 'jbr';
     font-size: 24px;
     -webkit-user-select: none;
     -moz-user-select: none;
