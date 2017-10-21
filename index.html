@@ -19,15 +19,6 @@
     <script type="text/javascript" src="js/verlet-1.0.0.js"></script>
     <!--计时-->
     <script src="js/time.js"></script>
-    <script>
-        $(function(){
-            $(".pageload-link").click(function () {
-                // 打印
-                setTimeout(writeContent(true),3000);
-            });
-        });
-
-    </script>
 </head>
 <body>
 <!--手动补充的字-->
@@ -92,6 +83,8 @@
                         currentPage = currentPage ? 0 : 1;
                         classie.addClass(pages[currentPage], 'show');
                     }, 1000);
+                    // 打印
+                    setTimeout(()=>writeContent(true, 150),1000);
                 });
             });
         }

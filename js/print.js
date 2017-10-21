@@ -5,7 +5,7 @@ var js = 0;
 //变换的行数
 var i = 4;
 //传入布尔型变量,为真时读入要打印的内容
-function writeContent(init) {
+function writeContent(init, printTime) {
     if (init) {
         inputText = document.getElementById('contentToWrite').innerHTML;
     }
@@ -67,7 +67,7 @@ function writeContent(init) {
     }
 
     if (charIndex <= stringLength) {
-        setTimeout('writeContent(false)', 100);
+        setTimeout(()=>writeContent(false, printTime), printTime);
     } else {
         // blinkSpan();
         document.getElementById('blink').style.display = 'none';
