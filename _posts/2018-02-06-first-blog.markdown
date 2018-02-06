@@ -1,3 +1,7 @@
+---
+title: first blog
+layout: jekyll-theme-primer
+---
 # first blog
 ```html
 <html>

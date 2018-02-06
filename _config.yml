@@ -24,6 +24,8 @@ url: "www.misst.wang" # the base hostname & protocol for your site, e.g. http://
 twitter_username: 
 github_username: someoneonsmile
 
+paginate: 5
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-primer
