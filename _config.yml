@@ -30,8 +30,8 @@ project_two_img: typewriter
 #project_four_icon: restaurant
 #project_four_img: contact4
 
-portfolio_heading: Portfolio
-portfolio_type: carousel
+portfolio_heading: 项目
+portfolio_type: cards
 
 # Skill icons from https://konpa.github.io/devicon/
 
