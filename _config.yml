@@ -156,9 +156,11 @@ cookie_accept_message: Thanks!
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 # theme: minima
 permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-assets
   - jekyll-minifier
+  - jekyll-seo-tag
