@@ -1,19 +1,19 @@
 title: 酒敬自由的博客
 name: 酒敬自由
 email: 1569275656@qq.com
-description:
+description: 分享
 
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
-project_one: First Project
-project_one_description: Describe your project!
+project_one: js
+project_one_description: js demo!
 project_one_url: https://github.com/jameshamann/jekyll-material-theme
 project_one_icon: location_on
 project_one_img: desk
 
-project_two: Second Project
-project_two_description: Describe your project!
+project_two: java
+project_two_description: java demo!
 project_two_url: https://github.com/jameshamann/jekyll-material-theme
 project_two_icon: photo_camera
 project_two_img: typewriter
