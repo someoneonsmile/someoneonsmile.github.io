@@ -3,6 +3,7 @@ layout: post
 title:  "websocket!"
 date:   2018-4-14 15:37:58
 image: /assets/images/twoscreen.jpg
+excerpt: "记录 websocket"
 ---
 ### websocket
 ---
