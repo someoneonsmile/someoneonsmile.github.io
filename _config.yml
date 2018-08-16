@@ -167,3 +167,5 @@ plugins:
   - jekyll-assets
   - jekyll-minifier
   - jekyll-seo-tag
+
+theme: jekyll-theme-slate
